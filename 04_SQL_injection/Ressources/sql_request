@@ -1,0 +1,6 @@
+Make this SQL Injection in the "IMAGE NUMBER:" field :
+1 AND 1=2 UNION SELECT id, comment FROM list_images
+
+Get the code, follow the instruction (md5 decode, then sha256 encode the result (albatroz))
+
+URL: http://10.13.0.186/?page=searchimg

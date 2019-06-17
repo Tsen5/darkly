@@ -1,0 +1,1 @@
+Change the 'site' URL parameter on redirection with something stupid (Ex: index.php?page=redirect&site=facebook -> index.php?page=redirect&site=42)

