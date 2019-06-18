@@ -1,0 +1,3 @@
+In the robots.txt file, we can find a path to a file with a md5 encoded root password (http://192.168.1.75/whatever/htpasswd). When we encode the password, we get a combinaison root:dragon, that can be use in admin login page.
+
+URL: http://10.13.0.186/admin/

