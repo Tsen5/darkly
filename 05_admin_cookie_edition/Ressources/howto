@@ -1,1 +1,7 @@
-Edit the I_am_admin cookie with md5 encryption of string 'true'
+Inspect any page and go to the application tab, In the storage tab click on "cookies".
+
+You will see a cookie named : "i_am_admin",
+
+Change the value (which is md5 encrypted false) to md5 encrypted true.
+
+And refresh the page.

@@ -1,3 +1,5 @@
-Change hidden input which has name="mail" with your mail 
+In this following page : http://<ip>/index.php?page=recover
 
-URL: http://10.13.0.186/index.php?page=recover
+Inspect the page, search the hidden input which has name="mail" 
+(ctrl f works), with a wrong mail address and submit.
+

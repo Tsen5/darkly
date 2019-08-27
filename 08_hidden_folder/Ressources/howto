@@ -1,3 +1,4 @@
-In the robots.txt file, we can find a path to a lot of hidden folders. Use script.php to find the right file with the flag (http://10.13.0.186/.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README).
+In the robots.txt file, we can find a path to a lot of hidden folders. Use script.php to find the right 
+file with the flag (http://<ip>/.hidden/whtccjokayshttvxycsvykxcfm/igeemtxnvexvxezqwntmzjltkt/lmpanswobhwcozdqixbowvbrhw/README).
 
-URL: http://10.13.0.186/.hidden/
+URL: http://<ip>/.hidden/

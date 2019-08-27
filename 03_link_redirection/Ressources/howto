@@ -1,1 +1,7 @@
-Change the 'site' URL parameter on redirection with something stupid (Ex: index.php?page=redirect&site=facebook -> index.php?page=redirect&site=42)
+On the index page, inspect the redirection of facebook/twitter/instagram,
+
+Change the 'site' URL parameter on redirection with something stupid 
+
+(Ex: index.php?page=redirect&site=facebook -> index.php?page=redirect&site=42)
+
+Click on the redirection and you get the flag.

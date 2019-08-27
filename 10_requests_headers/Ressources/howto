@@ -1,7 +1,12 @@
-Change Requests Headers with commented values find in HTML inspector : (You must cumming from : "https://www.nsa.gov/" to go to the next step) & (Let's use this browser : "ft_bornToSec". It will help you a lot.).
+Go to the footer of the page, and click on "BornToSec".
+
+Change Requests Headers with commented values find in HTML inspector : 
+"You must cumming from : 'https://www.nsa.gov/' to go to the next step" 
+and :
+"Let's use this browser : 'ft_bornToSec'. It will help you a lot."
 
 With ModHeader (Chrome Extension), edit Requests Headers then reload the page :
 Referer: https://www.nsa.gov/
 User-Agent: ft_bornToSec
 
-URL: http://10.13.0.186/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+URL: http://<ip>/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c

@@ -1,7 +1,11 @@
 (Solution found only with firefox)
+
 Try to upload a file that is not an image .jpeg (a message "Your image was not uploaded." will appear).
+
 Open firefox dev tools, go to Network, and find the POST request corresponding to your upload.
+
 Select it then click on "Edit and send". In the request body, you should find "Content-Type: text/php", change it to "Content-Type: image/jpeg".
+
 Send it, then right click on it to open it in a new tab. The flag will appear.
 
-URL: http://10.13.0.186/?page=upload
+URL: http://<ip>/?page=upload
