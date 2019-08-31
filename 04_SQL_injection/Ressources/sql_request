@@ -13,4 +13,4 @@ Make this SQL Injection in the "IMAGE NUMBER:" field :
 
 Get the code, follow the instruction (md5 decode, then sha256 encode the result (albatroz))
 
-URL: http://10.13.0.186/?page=searchimg
+URL: http://<ip>/?page=searchimg

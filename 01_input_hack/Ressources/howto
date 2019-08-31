@@ -1,3 +1,8 @@
-Change select option with incorrect value (Ex: 11)
+Go on this following page : http://10.13.0.186/?page=survey
 
-URL: http://10.13.0.186/?page=survey
+Inspect the drop-down menu, and change the select option value
+with a wrong value (like 11 or 12).
+
+Then you just need to choose the option value you just change.
+
+URL: http://<ip>/?page=survey
